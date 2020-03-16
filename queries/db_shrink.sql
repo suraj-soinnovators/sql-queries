@@ -1,0 +1,4 @@
+USE db_name
+GO
+DBCC SHRINKFILE(db_name_log,1)
+DBCC SHRINKFILE (db_name, TRUNCATEONLY);
